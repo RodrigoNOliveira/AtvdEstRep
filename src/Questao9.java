@@ -9,7 +9,7 @@ public class Questao9 {
         System.out.println("Digite dois numeros: ");
         n = scanner.nextInt();
         n2 = scanner.nextInt();
-        scanner.close();
+   
 
         if (n > n2){
             maior = n;
