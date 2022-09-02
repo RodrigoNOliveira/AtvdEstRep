@@ -2,11 +2,8 @@ import java.util.Scanner;
 
 public class Questao1 {
     public static void main(String[] args) throws Exception {
- 
         Scanner scanner = new Scanner(System.in);
-
         int prim= 0, seg = 1;
-
         while(prim != seg){
             System.out.println("Digite dois numeros: ");
             prim = scanner.nextInt();
@@ -19,12 +16,6 @@ public class Questao1 {
             }
 
         }
-
-
-
-
-
         scanner.close();
-
     }
 }
